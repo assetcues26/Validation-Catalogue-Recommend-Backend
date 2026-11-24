@@ -1,0 +1,13 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+python-dotenv==1.0.1
+google-genai==2.33.0
+Pillow==10.4.0
+httpx==0.28.1
+pinecone==5.4.2
+zxing-cpp==3.1.1
+pydantic==2.14.1
+# Optional — validation package imports azure.functions at module load in a few files;
+# patched to tolerate missing install, but listed for parity with validation backend.
+azure-functions==1.18.0
